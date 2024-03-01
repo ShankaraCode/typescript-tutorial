@@ -24,7 +24,7 @@ console.log(c); //print c
 
 //add the line below. 
 
-let d = c.apple * 4
+let d = c.apple * 4 // c.apple here means we are accesing the objects
 console.log(d); //print d
 
 //Before proceeding to next exercise, try to add "2" to number 2 and see what happens. Notice the error.
@@ -39,7 +39,7 @@ return n * n
 squareOf(2) // evaluates to 4
 squareOf('z') // evaluates to NaN
 
-console.log(squareOf(2)); //shouls show a number
+console.log(squareOf(2)); //should show a number
 console.log(squareOf('z')); //should show a Nan
 
 //Question : Why is there a read squiggly line under n in squareOf (n)

@@ -15,7 +15,7 @@ const name = "John";
 console.log(name); // Output: John
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    Ex 2c -  Variable Types
+    Ex 2c -  Variable Types (specifying the type)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 let isStudent: boolean = true;
 let score: number = 90;
@@ -26,7 +26,7 @@ console.log(score); // Output: 90
 console.log(greeting); // Output: Hello
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    Ex 2d -  Variable Type Inference
+    Ex 2d -  Variable Type Inference (without specifying the type)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 let x = 10; // x is inferred as number
 let y = "Hello"; // y is inferred as string
@@ -42,7 +42,7 @@ function printNumber() {
     console.log(number); // Output: 42
 }
 
-printNumber();
+printNumber(); // calling the method printNumber()
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     Ex 2f -  Variable Shadowing
